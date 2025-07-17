@@ -30,4 +30,31 @@ Installa con:
 pip install requirements.txt
 ```
 
+## Uso
+
+Train:
+```bash
+python phishing_detector_advanced.py train --data phishing_dataset_example.csv --model phishing_model.pkl
+```
+
+Evaluate:
+```bash
+python phishing_detector_advanced.py evaluate --data phishing_dataset_example.csv --model phishing_model.pkl
+```
+
+Predict
+```bash
+python phishing_detector_advanced.py predict --input new_emails.csv --model phishing_model.pkl --output predictions.csv
+```
+
+Autore: https//lancohacker.com | info@lancohacker.com
+
+
+
+
+
+
+
+
+
 
